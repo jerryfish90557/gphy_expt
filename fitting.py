@@ -20,7 +20,10 @@ N_factor = 0.
 
 for i in row:
     data = i.split(",") #kick out ',' and make a list
-    x.append(float(data[0])) #change string into float type
+    if data[0] != 0.:
+        x.append(float(data[0])) #change string into float type
+    else:
+        x.append(0.0001)
     y.append(float(data[1]))
     
     #find maximum to do normalize later
