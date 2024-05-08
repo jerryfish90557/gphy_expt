@@ -7,3 +7,4 @@ Because we have data of position of the optical fiber and the value of luminous,
 ## Step
 1. Copy yout data to csv file, name it data.csv. First column for the position of fiber, and second column for luminous
 2. Move data.csv to the path of this code
+3. ```$ python fitting.py```
